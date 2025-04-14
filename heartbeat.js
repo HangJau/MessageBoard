@@ -112,7 +112,7 @@ const config = {
     if (!data?.msgs?.length) return null;
     
     // 按时间降序排序并取第一条
-    return data.msgs.sort((a, b) => b.time - a.time)[0];
+    return data.msgs[0];
   }
   
   // 获取数据
