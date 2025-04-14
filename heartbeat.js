@@ -6,10 +6,10 @@
 const config = {
     workerUrl: "*.woker.dev", // worker URL
     userKey: "userKey", // 与Worker中配置的he/her一致
-    sharedToken: "sharedToken",
-    myName: "小帅",
-    partnerName: "小妹",
-    title: "💝Ta的刹那心动💘",
+    sharedToken: "sharedToken", // worker中配置的sharedToken
+    myName: "小帅", // 自己的昵称
+    partnerName: "小妹", // 对方的昵称
+    title: "💌Ta的刹那心动💌", // 组件名称
     
     themeColor: "#FF6B8B",  // 主色调
     secondaryColor: "#4A90E2" // 辅助色
